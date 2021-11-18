@@ -5,7 +5,7 @@ source: https://discourse.mcneel.com/t/using-system-timers-in-visual-studio-for-
 
 I should have add "ExpireSolution(true);" in the Stop() method.
 
- **blic void Stop()
+ **public void Stop()
         {
             aTimer.Stop();
             ExpireSolution(true);
